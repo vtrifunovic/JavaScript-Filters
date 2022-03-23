@@ -1,10 +1,9 @@
-import { butterworth } from './butterworth.mjs';
-import { cumtrapz } from "./cumtrapz.mjs"
-import { medianfilter } from './median.mjs';
-import { lineardetrend } from './lineardetrend.mjs';
-import { highpass } from './bwhpf.mjs';
-import { findmean } from './findmean.mjs';
-import { findpeaks } from './findpeaks.mjs';
+import { butterworth } from './filters/butterworth.mjs';
+import { cumtrapz } from "./filters/cumtrapz.mjs"
+import { medianfilter } from './filters/median.mjs';
+import { lineardetrend } from './filters/lineardetrend.mjs';
+import { findmean } from './filters/findmean.mjs';
+import { findpeaks } from './filters/findpeaks.mjs';
 
 
 var time_stamps = [0,
