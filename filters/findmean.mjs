@@ -5,6 +5,5 @@ export function findmean(time_stamps)
     {
         total += time_stamps[x] - time_stamps[x-1];
     }
-    //console.log(total)
-    return total/time_stamps.length
+    return (total/time_stamps.length)/1000;
 }

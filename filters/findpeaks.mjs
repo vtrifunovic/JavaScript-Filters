@@ -4,7 +4,7 @@ export function findpeaks(samples, time_stamps)
     var sLength = samples.length;
     var peak = [];
     if (sLength != time_stamps.length) {
-        throw new Error('The parameters values_x and values_y need to have same size!');
+        throw new Error('The parameters samples and time_stamps need to have same size!');
     }
     for (var g = 1; g < sLength; g++)
     {

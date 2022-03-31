@@ -27,7 +27,6 @@ export function medianfilter(dataset, length)
 function insertionSort(arr, val)
 {
     var j; var key;
-    var array = [];
     for (var k = 1; k < val; k++)
     {
         key = arr[k];

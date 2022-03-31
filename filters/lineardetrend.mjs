@@ -4,7 +4,7 @@ export function lineardetrend(values_x, values_y)
     var totval = values_y.length;
     for (var j = 0; j < totval; j++)
     {
-        values_y[j] = values_y[j] - trend[1][j];
+        values_y[j] = values_y[j]// - (trend[1][j]);
     }
     return values_y;
 }
@@ -15,7 +15,6 @@ function findLineByLeastSquares(values_x, values_y) {
     var sum_xy = 0;
     var sum_xx = 0;
     var count = 0;
-
     var x = 0;
     var y = 0;
     var values_length = values_x.length;
